@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MonefyAppTest]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="MonefyApp-Income(failed)">
+    <classes>
+      <class name="MyAppiumTest.Monefy.DashBoardAddIncomeTest">
+        <methods>
+          <include name="IncomeCategorySalary"/>
+          <include name="setup"/>
+          <include name="openAppp"/>
+          <include name="teardown"/>
+          <include name="IncomeCategoryDeposit"/>
+        </methods>
+      </class> <!-- MyAppiumTest.Monefy.DashBoardAddIncomeTest -->
+    </classes>
+  </test> <!-- MonefyApp-Income(failed) -->
+  <test thread-count="5" name="MonefyApp-ExpenseMainButton(failed)">
+    <classes>
+      <class name="MyAppiumTest.Monefy.DashBoardExpenseTest">
+        <methods>
+          <include name="openAppp"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="DashboardExpenseButton"/>
+        </methods>
+      </class> <!-- MyAppiumTest.Monefy.DashBoardExpenseTest -->
+    </classes>
+  </test> <!-- MonefyApp-ExpenseMainButton(failed) -->
+</suite> <!-- Failed suite [MonefyAppTest] -->

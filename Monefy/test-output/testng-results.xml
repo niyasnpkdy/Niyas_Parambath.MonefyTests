@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-27T12:59:59Z" name="MonefyAppTest" finished-at="2021-05-27T13:03:29Z" duration-ms="210070">
+    <groups>
+    </groups>
+    <test started-at="2021-05-27T12:59:59Z" name="MonefyApp-Accounts" finished-at="2021-05-27T13:01:13Z" duration-ms="74595">
+      <class name="MyAppiumTest.Monefy.AddAccountTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:MyAppiumTest.Monefy.AddAccountTest@358ee631]" started-at="2021-05-27T12:59:59Z" name="setup" finished-at="2021-05-27T13:01:02Z" duration-ms="62851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="AddAccount()[pri:0, instance:MyAppiumTest.Monefy.AddAccountTest@358ee631]" started-at="2021-05-27T13:01:02Z" name="AddAccount" finished-at="2021-05-27T13:01:13Z" duration-ms="11630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddAccount -->
+        <test-method is-config="true" signature="openAppp()[pri:0, instance:MyAppiumTest.Monefy.AddAccountTest@358ee631]" started-at="2021-05-27T13:01:02Z" name="openAppp" finished-at="2021-05-27T13:01:02Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAppp -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:MyAppiumTest.Monefy.AddAccountTest@358ee631]" started-at="2021-05-27T13:01:13Z" name="teardown" finished-at="2021-05-27T13:01:13Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- MyAppiumTest.Monefy.AddAccountTest -->
+    </test> <!-- MonefyApp-Accounts -->
+    <test started-at="2021-05-27T13:01:19Z" name="MonefyApp-ExpenseCategories" finished-at="2021-05-27T13:01:55Z" duration-ms="36110">
+      <class name="MyAppiumTest.Monefy.ExpenseCategoriesTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:MyAppiumTest.Monefy.ExpenseCategoriesTest@4e91d63f]" started-at="2021-05-27T13:01:19Z" name="setup" finished-at="2021-05-27T13:01:37Z" duration-ms="17985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="openAppp()[pri:0, instance:MyAppiumTest.Monefy.ExpenseCategoriesTest@4e91d63f]" started-at="2021-05-27T13:01:37Z" name="openAppp" finished-at="2021-05-27T13:01:37Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAppp -->
+        <test-method signature="AddCarItem()[pri:0, instance:MyAppiumTest.Monefy.ExpenseCategoriesTest@4e91d63f]" started-at="2021-05-27T13:01:37Z" name="AddCarItem" finished-at="2021-05-27T13:01:43Z" duration-ms="5932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddCarItem -->
+        <test-method is-config="true" signature="openAppp()[pri:0, instance:MyAppiumTest.Monefy.ExpenseCategoriesTest@4e91d63f]" started-at="2021-05-27T13:01:43Z" name="openAppp" finished-at="2021-05-27T13:01:43Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAppp -->
+        <test-method signature="AddClothsItem()[pri:0, instance:MyAppiumTest.Monefy.ExpenseCategoriesTest@4e91d63f]" started-at="2021-05-27T13:01:43Z" name="AddClothsItem" finished-at="2021-05-27T13:01:49Z" duration-ms="6154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddClothsItem -->
+        <test-method is-config="true" signature="openAppp()[pri:0, instance:MyAppiumTest.Monefy.ExpenseCategoriesTest@4e91d63f]" started-at="2021-05-27T13:01:49Z" name="openAppp" finished-at="2021-05-27T13:01:49Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAppp -->
+        <test-method signature="AddEntertainmentItem()[pri:0, instance:MyAppiumTest.Monefy.ExpenseCategoriesTest@4e91d63f]" started-at="2021-05-27T13:01:49Z" name="AddEntertainmentItem" finished-at="2021-05-27T13:01:55Z" duration-ms="6028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddEntertainmentItem -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:MyAppiumTest.Monefy.ExpenseCategoriesTest@4e91d63f]" started-at="2021-05-27T13:01:55Z" name="teardown" finished-at="2021-05-27T13:01:55Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- MyAppiumTest.Monefy.ExpenseCategoriesTest -->
+    </test> <!-- MonefyApp-ExpenseCategories -->
+    <test started-at="2021-05-27T13:01:58Z" name="MonefyApp-Income" finished-at="2021-05-27T13:02:52Z" duration-ms="54016">
+      <class name="MyAppiumTest.Monefy.DashBoardAddIncomeTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:MyAppiumTest.Monefy.DashBoardAddIncomeTest@6193932a]" started-at="2021-05-27T13:01:58Z" name="setup" finished-at="2021-05-27T13:02:36Z" duration-ms="38245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="IncomeCategoryDeposit()[pri:0, instance:MyAppiumTest.Monefy.DashBoardAddIncomeTest@6193932a]" started-at="2021-05-27T13:02:36Z" name="IncomeCategoryDeposit" finished-at="2021-05-27T13:02:45Z" duration-ms="8775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IncomeCategoryDeposit -->
+        <test-method is-config="true" signature="openAppp()[pri:0, instance:MyAppiumTest.Monefy.DashBoardAddIncomeTest@6193932a]" started-at="2021-05-27T13:02:36Z" name="openAppp" finished-at="2021-05-27T13:02:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAppp -->
+        <test-method is-config="true" signature="openAppp()[pri:0, instance:MyAppiumTest.Monefy.DashBoardAddIncomeTest@6193932a]" started-at="2021-05-27T13:02:45Z" name="openAppp" finished-at="2021-05-27T13:02:45Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAppp -->
+        <test-method signature="IncomeCategorySalary()[pri:0, instance:MyAppiumTest.Monefy.DashBoardAddIncomeTest@6193932a]" started-at="2021-05-27T13:02:45Z" name="IncomeCategorySalary" finished-at="2021-05-27T13:02:52Z" duration-ms="6983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IncomeCategorySalary -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:MyAppiumTest.Monefy.DashBoardAddIncomeTest@6193932a]" started-at="2021-05-27T13:02:52Z" name="teardown" finished-at="2021-05-27T13:02:52Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- MyAppiumTest.Monefy.DashBoardAddIncomeTest -->
+    </test> <!-- MonefyApp-Income -->
+    <test started-at="2021-05-27T13:02:53Z" name="MonefyApp-ExpenseMainButton  " finished-at="2021-05-27T13:03:29Z" duration-ms="36068">
+      <class name="MyAppiumTest.Monefy.DashBoardExpenseTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:MyAppiumTest.Monefy.DashBoardExpenseTest@7ee955a8]" started-at="2021-05-27T13:02:53Z" name="setup" finished-at="2021-05-27T13:03:17Z" duration-ms="24576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="openAppp()[pri:0, instance:MyAppiumTest.Monefy.DashBoardExpenseTest@7ee955a8]" started-at="2021-05-27T13:03:17Z" name="openAppp" finished-at="2021-05-27T13:03:17Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAppp -->
+        <test-method signature="DashboardExpenseButton()[pri:0, instance:MyAppiumTest.Monefy.DashBoardExpenseTest@7ee955a8]" started-at="2021-05-27T13:03:17Z" name="DashboardExpenseButton" finished-at="2021-05-27T13:03:29Z" duration-ms="11488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DashboardExpenseButton -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:MyAppiumTest.Monefy.DashBoardExpenseTest@7ee955a8]" started-at="2021-05-27T13:03:29Z" name="teardown" finished-at="2021-05-27T13:03:29Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- MyAppiumTest.Monefy.DashBoardExpenseTest -->
+    </test> <!-- MonefyApp-ExpenseMainButton   -->
+  </suite> <!-- MonefyAppTest -->
+</testng-results>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MonefyAppTest">
+	<test name="MonefyApp-Accounts">
+		<classes>
+			<class name="MyAppiumTest.Monefy.AddAccountTest"></class>
+		</classes>
+	</test>
+	
+	<test name="MonefyApp-ExpenseCategories">
+		<classes>
+			<class name="MyAppiumTest.Monefy.ExpenseCategoriesTest"></class>
+		</classes>
+	</test>
+	
+	<test name="MonefyApp-Income">
+		<classes>
+			 <class name="MyAppiumTest.Monefy.DashBoardAddIncomeTest"></class>
+			
+		</classes>
+	</test>
+	<test name="MonefyApp-ExpenseMainButton
+	">
+		<classes>
+			<class name="MyAppiumTest.Monefy.DashBoardExpenseTest"></class>
+		</classes>
+	</test>
+	
+</suite>
